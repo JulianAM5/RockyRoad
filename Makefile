@@ -1,3 +1,5 @@
+# Para comunicarse por medio de UART -> screen *PUERTO* *baud rate*
+# Regularmente puerto es /dev/ttyACM0 y baud rate 9600
 MCU = atmega328p
 F_CPU = 16000000UL
 SRC = main.c libraries/RockyRoad.c libraries/UART.c libraries/LCD.c libraries/EEPROM.c libraries/Ranking.c
